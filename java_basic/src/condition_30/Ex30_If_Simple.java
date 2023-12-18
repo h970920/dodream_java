@@ -6,6 +6,10 @@ public class Ex30_If_Simple {
     
     boolean isKorean = true;
     
+    if(isKorean == true) {
+      System.out.println("한국 사람 입니다");
+    }
+    
     if(isKorean) {
       System.out.println("한국 사람 입니다.");
     }
