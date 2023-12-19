@@ -1,5 +1,9 @@
 package hyun_woo;
 
+/*
+ * 직각삼각형 만들기
+ */
+
 public class day_01_re {
 
   public static void main(String[] args) {
