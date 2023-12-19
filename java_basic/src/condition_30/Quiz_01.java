@@ -54,6 +54,7 @@ public static void main(String[] args) {
     Scanner ac = new Scanner (System.in);
         double myWeight=ac.nextDouble();
         double standardWeight = 0;
+        double obesity = 0;
      
         
         if (myHeight <= 150) {
