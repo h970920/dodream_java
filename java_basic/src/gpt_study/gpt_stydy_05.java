@@ -35,11 +35,11 @@ public class gpt_stydy_05 {
     
     //배열 오름차순 정렬하기 ,, [1,2,3]
    Arrays.sort(arr);
-   System.out.println("오름차순 정렬을 완료했습니다 " +Arrays.toString(arr));
+ 
    
     
     //배열을 문자열로 변환해서 출력
-  
+   System.out.println("오름차순 정렬을 완료했습니다 " +Arrays.toString(arr));
    
     
     
