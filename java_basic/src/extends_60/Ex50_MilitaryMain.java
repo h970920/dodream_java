@@ -7,7 +7,7 @@ import extends_60.components.Navy;
 public class Ex50_MilitaryMain {
   public static void main(String[] args) {
     
-    Army army = new Army();
+    Army army = new Army(null);
     army.setName("육군");
     army.attack();
     army.tank();
