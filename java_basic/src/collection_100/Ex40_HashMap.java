@@ -1,5 +1,6 @@
 package collection_100;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Set;
 import java.util.stream.Stream;
@@ -49,5 +50,11 @@ public class Ex40_HashMap {
   System.out.println("-----------스트림으로 출력시도 --------------");
   Stream<String> idStream = idSet.stream();
   idStream.forEach(id->System.out.println(id+ " : " + memMap.get(id)));
+  
+  System.out.println();
+  System.out.println("5. memMap의 value만 가져와서 출력하기");
+  Collection<String> collection = memMap.values();
+  collection.stream().forEach(val->System.out.println(val));
+  
   }
 }
